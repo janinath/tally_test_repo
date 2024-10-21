@@ -129,4 +129,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import os
 
 # Default port to 8000 if not specified
-PORT = os.environ.get('PORT', 8000)
+PORT = os.environ.get('PORT', 10000)
