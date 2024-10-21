@@ -126,3 +126,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+import os
+
+# Default port to 8000 if not specified
+PORT = os.environ.get('PORT', 8000)
